@@ -1,19 +1,38 @@
-# Conversor De Dinheiro
+# 💱 Conversor de Dinheiro Real-Time
 
-Resumo do que foi Criado.
+Uma aplicação web simples, rápida e interativa para conversão de moedas. Este projeto demonstra habilidades fundamentais de desenvolvimento frontend, integrando uma interface limpa com uma API externa de taxas de câmbio em tempo real.
 
-O código HTML define uma página da web que apresenta um conversor de moedas. A página possui um formulário com campos para entrada de quantia, seleção da moeda de origem e destino, além de um botão para obter a taxa de câmbio. O JavaScript interage com o HTML para preencher as seleções de moeda com opções, exibir bandeiras correspondentes às moedas selecionadas e realizar a conversão de moeda com base na taxa de câmbio obtida de uma API.
+---
 
-O código JavaScript faz o seguinte:
+### 🎨 Design & Identidade Visual
 
-Seleciona os elementos relevantes do HTML, como seleções de moeda, botões, campos de entrada e elementos de exibição de resultados.
+O projeto foi construído com uma estética moderna e limpa, utilizando a paleta de cores definida para o portfólio:
 
-Preenche as seleções de moeda com opções usando um loop que itera pelas moedas disponíveis no objeto Country_List. A moeda de origem (USD) e a moeda de destino (BRL) são pré-selecionadas.
+* **Títulos & Elementos Primários:** Lilás Escuro (#6A5ACD)
+* **Botões & Destaques de Ação:** Rosa Vibrante (#FF69B4)
+* **Fundo:** Modo Escuro (#0d1117)
 
-Define um manipulador de evento para atualizar a bandeira da moeda sempre que uma seleção de moeda é alterada. Isso é feito alterando o atributo src da tag img correspondente.
+---
 
-Define uma função assíncrona getExchangeRate() para obter a taxa de câmbio da API exchangerate-api.com. A função extrai a taxa de câmbio da resposta e calcula a conversão da quantia de uma moeda para outra.
+### 🛠️ Toolbox Tecnológica
 
-Define manipuladores de eventos para carregar a taxa de câmbio quando a página é carregada, quando o botão é clicado e quando o ícone de troca de moeda é clicado. Ao clicar no ícone de troca, as moedas de origem e destino são trocadas, e a taxa de câmbio é recalculada.
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://deboraiara.github.io/money-converter/)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://deboraiara.github.io/money-converter/)
+[![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://deboraiara.github.io/money-converter/)
 
-No geral, os códigos criam uma página da web interativa que permite aos usuários converter quantias de uma moeda para outra com base nas taxas de câmbio em tempo real. O JavaScript é usado para manipular as interações do usuário e fazer solicitações a uma API para obter as taxas de câmbio.
+**Recursos Utilizados:**
+-   **API Externa:** Consumo de dados de taxas de câmbio em tempo real via `fetch`.
+-   **FlagCDN:** Integração dinâmica de bandeiras de países para melhor UX.
+-   **FontAwesome:** Ícones vetoriais modernos.
+
+---
+
+### 📸 Screenshots
+
+Aqui está o conversor rodando no ambiente de desenvolvimento:
+
+![Conversor de Dinheiro Rodando] <img width="2446" height="1325" alt="image" src="https://github.com/user-attachments/assets/3b9c0ae0-f2da-4eaf-9645-d3f275806836" />
+
+> *Dashboard de desenvolvimento: Frontend ativo no monitor principal, código JavaScript no secundário.*
+
+---
